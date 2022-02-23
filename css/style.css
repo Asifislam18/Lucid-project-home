@@ -270,65 +270,250 @@ a, a:hover{
 	color: #fff;
 	font-weight: 600;
 	text-transform: uppercase;
-	margin: 20px 0px 5px;
+	margin: 0px 0px 5px;
 }
 .testimonial .owl-theme .owl-dots{
 	margin: 70px 0px 0px !important;
 }
-.theme_get{
+/* eye-cather section start */
+.eye-cather{
 	width: 100%;
-	background: url("../images/pst.png") center top no-repeat;
-	background-size: cover;
+	padding: 40px 0px;
+	background: #15141a;
 }
-.theme_get h1{
-	font-weight: 500;
+.eye-cather h2{
 	font-size: 30px;
-	line-height: 42px;
+	line-height: 40px;
 	color: #fff;
+	font-weight: 300;
+	margin: 0px;
 }
-.theme_get h1 span{
-	font-weight: 500;
-	font-size: 30px;
-	line-height: 42px;
-	color: #c1c0c2;
+.eye-cather h2 span{
+	font-weight: 700;
+}
+.eye-cather .button-group{
+	padding: 0px;
+	text-align: right;
+}
+.eye-cather .button-group .btn-primary{
+	margin: 0px;
+}
+.eye-cather .button-group .btn-light{
+	margin: 0px 25px 0px 0px;
+}
+
+/* eye-cather section end */
+
+/* price-plan section start */
+
+
+.price-plan{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price-plan .title{
+	text-align: center;
+}
+.price{
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	transition: 1s;
+	margin: 20px 0px 0px;
 
 }
-.theme_get{
+.price .price-head{
 	width: 100%;
-	padding: 60px 0px;
+	padding: 20px 0px;
+	border-bottom: 1px solid #e0e0e0;
+
 }
-.theme_get .btn-features{
-	padding: 12px 15px;
-	margin: 0px -11px;
-	font-size: 14px;
+.price .price-head h4{
+	font-size: 22px;
 	text-transform: uppercase;
+	line-height: 32px;
+	font-weight: 700;
 	letter-spacing: 2px;
-	font-weight: 600;
-	color: #fff;
+	color: #000;
+	margin: 0px;
+
+}
+.price .inner-price{
+	width: 100%;
+	padding: 45px 0px;
+	border-bottom: 1px solid #e0e0e0;
+
+}
+.price .inner-price sup{
+	font-weight: 500;
+	font-size: 28px;
+
+}
+.price .inner-price h1{
+	font-size: 52px;
+	line-height: 62px;
+	margin: 0px;
+	font-weight: 700;
+	color: #000;
+
+}
+.price .inner-price p{
+	font-size: 16px;
+	color: #999;
+	margin: -5px 0px 0px ;
+
+}
+.price .price-content{
+	width: 100%;
+	padding: 35px 35px 30px;
+	
+}
+.price .price-content p{
+	font-size: 16px;
+	color: #999;
+	line-height: 26px;
+	margin: 0px 0px 50px;
+
+}
+.price .price-content a{
+	font-size: 16px;
+	color: #008ed6;
+	line-height: 26px;
+	font-weight: 700;
+
+}
+.price .price-content .btn-primary{
+	padding: 12px 35px;
 	background: transparent;
-	border: 1px solid #7f7f7f;
-	transition: 1s ease-in;
-}
-.theme_get .btn-features:hover, .theme_get .btn-features:focus{
-	color: #fff;
-	background:#008ed6;
-	border: 1px solid #008ed6;
-}
-
-.theme_get .btn-download{
-	padding: 12px 15px;
-	margin: 0px 0px 0px 18px;
-	font-size: 14px;
+	border: 1px solid #e0e0e0;
+	color: #008ed6;
+	font-size: 16px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 600;
+	letter-spacing: 1px;
+}
+.price:hover .price-head h4{
+	color: #008ed6;
+	transition: 1s;
+}
+.price:hover .inner-price{
+	background: #008ed6;
+	transition: 1s;
+}
+.price:hover .inner-price h1, .price:hover .inner-price p{
 	color: #fff;
+	transition: 1s;
+
+}
+.price:hover .price-content .btn-primary{
 	background: #008ed6;
 	border: 1px solid #008ed6;
-	transition: 1s ease-in;
+	color: #fff;
+	transition: 1s;
 }
-.theme_get .btn-download:hover, .theme_get .btn-download:focus{
-    color: #008ed6;
+/* price-plan section end */
+
+/* contact section start */
+
+.contact{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #ededed;
+	position: relative;
+}
+.contact .title{
+	text-align: center;
+}
+.info-box{
+	width: 100;
+	text-align: center;
+}
+.info-box img{
+	margin: 0px 0px 30px;
+}
+
+.info-box p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #999;
+}
+.main-form{
+	width: 100%;
+	padding: 60px 75px;
+	margin: 50px 0px -75px;
+	background: #15141a;
+	position: relative;
+	z-index: 1;
+}
+.main-form .form-control{
+	padding: 15px;
+	background: transparent;
+	border: 1px solid #999;
+	color: #999;
+}
+.main-form .form-control:hover, .main-form .form-control:focus{
+	border: 1px solid #999;
+	box-shadow: 0 0 0 1px #999;
+}
+.text-right{
+	text-align: right;
+}
+
+.main-form .btn-primary{
+	padding: 15px 35px;
+	margin: 10px 0px 0px;
+	background: 008ed6;
+	border: 1px solid #008ed6;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
 	background: transparent;
 	border: 1px solid #008ed6;
+	color: #008ed6;
+	text-align: 1s;
 }
+.map{
+	width: 100%;
+	position: relative;
+	z-index: -1;
+
+}
+/* contact section end */
+
+/* footer section start */
+
+
+.footer {
+    width: 100%;
+    padding: 40px 0px 0px;
+    background: #191919;
+    text-align: center;
+}
+.footer .fa {
+    font-size: 20px;
+    color: #999;
+    text-align: center;
+    padding: 15px;
+    transition: .5s;
+}
+.footer .copyright {
+    text-align: center;
+    font-weight: 600;
+    color: #999;
+    padding: 18px 0px;
+    word-spacing: 3px;
+}
+.footer .copyright p{
+    color:#999;
+}
+.footer .fa:hover{
+    color:#008ed6;
+}
+
+/* footer section end */
+
+
+
